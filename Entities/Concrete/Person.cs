@@ -17,7 +17,6 @@ namespace Entities.Concrete
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        [Key]
         [MaxLength(12), MinLength(11)]
         public long NationalIdentity { get; set; }
         public int DateOfBirthYear { get; set; }
